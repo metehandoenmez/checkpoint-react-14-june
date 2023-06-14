@@ -16,4 +16,35 @@
 
 button {
   padding: 5px 10px 5px 10px;
+  border: 2px orangered solid;
+  border-radius: 8px;
 }
+
+button:hover {
+  cursor: pointer;
+  background-color: orangered;
+  border: 2px gainsboro solid;
+  color: white;
+}
+
+.display {
+  border: 2px orangered solid;
+  padding: 16px;
+  border-radius: 16px;
+  width: 450px;
+  margin: 24px;
+}
+
+.red {
+  color: red;
+  padding: 40px;
+  margin-left: 130px;
+
+}
+
+.blue {
+  color: blue;
+  padding: 40px;
+  margin-left: 130px;
+}
+
